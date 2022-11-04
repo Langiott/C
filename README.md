@@ -1,2 +1,2 @@
-# c-
+# c++
 Studio di linguaggio C++
