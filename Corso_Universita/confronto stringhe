@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+char vet1[3];
+ char vet2[3];
+
+int main()
+{
+ int i = 0;
+ cin >> vet1 >> vet2;
+ while ((vet1[i] == vet2[i]) && i < 12)
+   {cout << vet1[i] << ' ' << vet2[i] << '\n';
+   i++;
+   };
+ if (i == 12) cout << i << "diversi \n"; else cout << "uguali \n";
+}
+ 
